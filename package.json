@@ -1,0 +1,32 @@
+{
+  "name": "b2b-compliance-mcp-cli",
+  "version": "1.0.0",
+  "description": "Zero-install stdio MCP Server & Node.js SDK for 31 B2B Compliance, OFAC Sanctions, GLEIF LEI, EU VAT, CISA CVE & SEC EDGAR APIs.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "bin": {
+    "b2b-compliance-mcp": "./bin/cli.js",
+    "b2b-compliance-mcp-cli": "./bin/cli.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "kyb",
+    "ofac",
+    "sanctions",
+    "cisa-kev",
+    "vat",
+    "gleif",
+    "claude",
+    "cursor"
+  ],
+  "author": "jesleytassili-glitch",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jesleytassili-glitch/b2b-compliance-mcp-cli.git"
+  }
+}
