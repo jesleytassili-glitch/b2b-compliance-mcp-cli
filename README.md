@@ -1,5 +1,6 @@
 # ⚡ `b2b-compliance-mcp-cli` — Zero-Install `npx` MCP Server & Node.js SDK (31 B2B Tools)
 
+[![npm](https://img.shields.io/npm/v/b2b-compliance-mcp-cli?color=cb3837&label=npm)](https://www.npmjs.com/package/b2b-compliance-mcp-cli)
 [![Release](https://img.shields.io/github/v/release/jesleytassili-glitch/b2b-compliance-mcp-cli?color=brightgreen&label=MCP%20CLI%20Release)](https://github.com/jesleytassili-glitch/b2b-compliance-mcp-cli/releases/tag/v1.0.0)
 [![Official MCP Registry](https://img.shields.io/badge/Official_MCP_Registry-7%2F7_Live-6366F1)](https://registry.modelcontextprotocol.io/v0/servers?search=io.github.jesleytassili-glitch)
 [![RapidAPI Hub](https://img.shields.io/badge/RapidAPI-@b2bquantapis-0055FF)](https://rapidapi.com/user/b2bquantapis)
@@ -14,7 +15,7 @@ Run all **31 stateless B2B Compliance, OFAC Sanctions, GLEIF LEI, EU VAT, CISA K
   "mcpServers": {
     "b2b-compliance-suite": {
       "command": "npx",
-      "args": ["-y", "github:jesleytassili-glitch/b2b-compliance-mcp-cli"],
+      "args": ["-y", "b2b-compliance-mcp-cli"],
       "env": {
         "RAPIDAPI_API_KEY": "YOUR_RAPIDAPI_KEY"
       }
@@ -22,6 +23,8 @@ Run all **31 stateless B2B Compliance, OFAC Sanctions, GLEIF LEI, EU VAT, CISA K
   }
 }
 ```
+
+*(Also installable directly from GitHub via `npx -y github:jesleytassili-glitch/b2b-compliance-mcp-cli`).*
 
 ## 🔑 Cloud API Keys
 - **RapidAPI Hub (`BASIC Free 15/mo` • `PRO $19/mo`):** https://rapidapi.com/user/b2bquantapis
