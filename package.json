@@ -1,6 +1,6 @@
 {
   "name": "b2b-compliance-mcp-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Zero-install stdio MCP Server & Node.js SDK for 31 B2B Compliance, OFAC Sanctions, GLEIF LEI, EU VAT, CISA CVE & SEC EDGAR APIs.",
   "main": "index.js",
   "types": "index.d.ts",

@@ -11,6 +11,6 @@ export interface AuditResult {
 }
 
 export declare class B2BComplianceClient {
-  constructor(opts?: { rapidapiKey?: string; apifyToken?: string });
+  constructor(opts?: { rapidapiKey?: string; zylaApiKey?: string; apifyToken?: string });
   runEngine(engineSlug: string, payload?: Record<string, unknown>): Promise<AuditResult>;
 }
